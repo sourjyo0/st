@@ -5,13 +5,8 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-<<<<<<< HEAD
 static char *font = "mono:pixelsize=22:antialias=true:autohint=true";
 static char *font2[] = { "Inconsolata for Powerline:pixelsize=22:antialias=true:autohint=true" };
-=======
-static char *font = "mono:pixelsize=14:antialias=true:autohint=true";
-static char *font2[] = { "JoyPixels:pixelsize=10:antialias=true:autohint=true" };
->>>>>>> 689add8aad04680b3882e08583ba9cbb7d91ca88
 static int borderpx = 2;
 
 /*
@@ -100,7 +95,6 @@ float alpha = 0.56;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
-<<<<<<< HEAD
   /* 8 normal colors */
   [0] = "#1d1f21", /* black   */
   [1] = "#cc342b", /* red     */
@@ -124,7 +118,6 @@ static const char *colorname[] = {
   /* special colors */
   [256] = "#000000", /* background */
   [257] = "#c5c8c6", /* foreground */
-=======
 	"#282828", /* hard contrast: #1d2021 / soft contrast: #32302f */
 	"#cc241d",
 	"#98971a",
@@ -147,7 +140,6 @@ static const char *colorname[] = {
 	"#555555", /* 257 -> rev cursor*/
 	"#282828", /* 258 -> bg */
 	"#ebdbb2", /* 259 -> fg */
->>>>>>> 689add8aad04680b3882e08583ba9cbb7d91ca88
 };
 
 /*
@@ -170,17 +162,10 @@ static unsigned int defaultcs = 257;
  * Default colors (colorname index)
  * foreground, background, cursor, reverse cursor
  */
-<<<<<<< HEAD
-unsigned int defaultfg = 257;
-unsigned int defaultbg = 256;
-static unsigned int defaultcs = 10;
-static unsigned int defaultrcs = 9;
-=======
 unsigned int defaultfg = 259;
 unsigned int defaultbg = 258;
 static unsigned int defaultcs = 256;
 static unsigned int defaultrcs = 257;
->>>>>>> 689add8aad04680b3882e08583ba9cbb7d91ca88
 
 /*
  * Default shape of cursor
